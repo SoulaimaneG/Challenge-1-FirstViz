@@ -15,7 +15,7 @@ export default function Home() {
 
   const [shown, setShown] = useState(true)
   const [isMobile, setIsMobile] = useState(
-    (innerWidth <= 1024) ? true : false
+    (window.innerWidth <= 1024) ? true : false
   )
   const [data, setData] = useState([])
 
